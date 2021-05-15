@@ -26,5 +26,11 @@
   "dependencies": {
     "gulp-cli": "^2.3.0",
     "gulp-sass": "^4.1.0"
-  }
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ]
 }
