@@ -10,11 +10,8 @@
     }
     &__header {
         margin: 0;
-        font-size: 42px;
-        font-weight: 700;
-        line-height: 42px;
+        @include header ();
         color: $text_color;
-        text-transform: uppercase;
     }
     &__subheader {
         font-size: 18px;

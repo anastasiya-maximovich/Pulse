@@ -9,11 +9,8 @@
         margin-top: 90px;
     }
     &__header {
-        font-size: 42px;
-        font-weight: 700;
-        line-height: 42px;
+        @include header();
         color: #fff;
-        text-transform: uppercase;
     }
     &__subheader {
         font-size: 24px;

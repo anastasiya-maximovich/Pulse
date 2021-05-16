@@ -1,0 +1,17 @@
+@media (max-width: 575px) {
+
+    .container {
+        min-width: 320px;
+        padding: 15px;
+    }
+    .promo {
+        padding: 20px;
+    }
+    &__wrapper {
+        flex-direction: row;
+        align-items: flex-end;
+        margin-top: 30px;
+
+    }
+
+}
