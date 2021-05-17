@@ -1,24 +1,16 @@
 .advantages {
     padding: 70px 0 65px;
     background-color: $bg_color;
-    &__wrapper {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-        justify-content: space-between;
-        align-items: center;
-    }
     &__header {
         margin: 0;
         @include header ();
         color: $text_color;
+        text-align: center;
     }
     &__subheader {
+        @include subheader();
         font-size: 18px;
-        font-weight: 700;
         line-height: 28px;
-        text-transform: uppercase;
-        color: $text_color;
     }
     &__text {
         font-size: 14px;

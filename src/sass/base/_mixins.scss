@@ -4,3 +4,10 @@
     line-height: 42px;
     text-transform: uppercase;
 }
+
+@mixin subheader() {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $text_color;
+    margin:  0;
+}

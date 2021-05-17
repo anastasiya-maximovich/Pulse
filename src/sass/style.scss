@@ -5,6 +5,8 @@
 @import "blocks/header";
 @import "blocks/buttons";
 @import "blocks/advantages";
+@import "blocks/consultation";
+@import "blocks/forms";
 
 * {
     font-family: 'Fira Sans', sans-serif;
@@ -12,5 +14,5 @@
 .container {
     max-width: 950px;
     min-width: 576px;
-    margin: 0 auto;  
+    margin: 0 auto;
 }
