@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
     <link rel="stylesheet" href="./css/style.min.css">
 </head>
 <body>
-    <div class="promo">
+    <section class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -55,8 +56,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="advantages">
+    </section>
+    <section class="advantages">
         <div class="container">
                 <h1 class="advantages__header">НАШИ ПРЕИМУЩЕСТВА</h1>
                 <div class="advantages__icons">
@@ -83,8 +84,8 @@
                     </div>
                 </div>            
         </div>
-    </div>
-    <div class="consultation">
+    </section>
+    <section class="consultation">
         <div class="container">
             <h2 class="consultation__subheader">Получите бесплатную консультацию<br>
                 по подбору пульсометра
@@ -99,7 +100,27 @@
                 <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
             </form>
         </div>
+    </section>
+
+    <section class="slider">
+    <div class="container">
+        <div class="slider__items">
+            <div>
+                <img src="./img/slider_1.png" alt="slider_1">
+            </div>
+            <div>
+                <img src="./img/slider_2.png" alt="slider_2">
+            </div>
+            <div>
+                <img src="./img/slider_3.png" alt="slider_3">
+            </div>
+          </div>
+          <button type="button" class="prev"><img src="icons/left.svg" alt="left arrow"></button>
+          <button type="button" class="next"><img src="icons/right.svg" alt="right arrow"></button>
     </div>
-    
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
